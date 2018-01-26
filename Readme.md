@@ -1,4 +1,1 @@
-This program is a game.  It does not fully function yet.  Ideally, the user has 10 tries to guess the letter the computer is 
-"thinking of."  The user does this by pressing a key.  Each incorrect guess is logged.  If the user does not guess correctly in ten tries, 
-a loss is added to his/her tally, the incorrect letter guesses are cleared, and the computer thinks of a new letter.  If the user guesses 
-correctly, the computer generates a new number, the incorrect letter guesses are cleared, and a win is added to his/her tally.  
+This program is a game.  The user is given a random number 1 - 120, and expected to match his or her "score" to that number.  The user does this by clicking crystals which have each been assigned random number values 1-12.  These numbers are not visible to player but he/she will see how the score increments upon clicking one of the four crystals, and this value will remain consistent through the duration of the game.  If the player exceeds the given random number, it is a loss.  If the player matches it, it adds to the win tally.  Eitherway, the game resets.
