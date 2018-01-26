@@ -1,0 +1,49 @@
+h1 {
+	text-align: center;
+	font-family: cursive;
+}
+
+#instructions {
+border-radius: 10px;
+background-color: #D7D1CD;
+margin: 10px;
+width:30%;
+padding: 5px;
+}
+
+#goalNumberBox{
+border-radius: 10px;
+background-color: #D7D1CD;
+font-size: 400%;
+width: 10%;
+margin: 10px;
+padding: 50px;
+}
+
+#playerNumberBox{
+border-radius: 10px;
+background-color: #D7D1CD;
+font-size: 400%;
+width: 10%;	
+margin: 10px;
+padding: 50px;
+}
+
+
+#gems img{
+	width:100px;
+	height:100px;
+}
+
+#winLossBox
+{
+	border-radius: 10px;
+	background-color: #D7D1CD;
+	padding: 5px;
+	width: 5%;
+
+}
+
+body{
+	background-color: red;
+}

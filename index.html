@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    
+  </head>
+  <body>
+
+  <h1>Crystal Collector</h1>  
+  
+  <div id = "instructions">
+  <p>Each crystal has been given a random number value.  Click the crystal to add
+  its value to your total.  If you can match the goal, you win.  If you exceed it,
+  you will lose, and the game will restart</p>
+  </div>
+
+  <div id = "goalNumberBox">
+  <span id = "goalNumber">
+  </span>
+</div>
+
+  <div id = "playerNumberBox">
+  <span id = "playerNumber">
+  </span>
+  </div>
+  
+ 
+ <div id="gems">
+ <img id ="blueGem" src = "assets/images/blueGem.png" alt = "blue gem">
+ <img id ="greenGem" src ="assets/images/greenGem.png" alt = "green gem">
+ <img id = "redGem" src = "assets/images/redGem.png" alt = "red gem">
+ <img id = "purpleGem" src = "assets/images/purpleGem.png" alt = "purple gem">
+</div>
+
+<div id ="winLossBox">
+Wins: <span id = "wins">
+  </span>
+  <br>
+
+Losses: <span id = "losses">
+  </span>
+</div>
+
+<script src="assets/javascript/game.js"></script>
+ 
+  </body>
+</html>
