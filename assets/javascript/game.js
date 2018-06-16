@@ -32,6 +32,10 @@ $("#losses").text(losses);
   if (playerNumber == goalNumber)
   {
     wins++;
+    // window.open("win.html", "_blank", "left=500, width=400,height=400");
+    var x = screen.width/2 - 500/2;
+    var y = screen.height/2 - 350/2;
+    window.open("win.html", "_blank",'height=385,width=500,left='+x+',top='+y);
 
 goalNumber = Math.floor(Math.random() * 120) + 1;
 playerNumber = 0;
@@ -52,6 +56,10 @@ $("#purpleGem").attr("value", purple);
   if (playerNumber > goalNumber)
   {
     losses++;
+    // window.open("loss.html", "_blank", "left=500, width=400,height=400");
+    var x = screen.width/2 - 500/2;
+    var y = screen.height/2 - 350/2;
+    window.open("loss.html", "_blank",'height=385,width=500,left='+x+',top='+y);
     
 goalNumber = Math.floor(Math.random() * 100) + 1;
 playerNumber = 0;
@@ -81,4 +89,3 @@ console.log("Wins: " + wins + " Losses: " + losses);
   
 
 });
-
