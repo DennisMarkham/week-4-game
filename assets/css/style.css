@@ -35,12 +35,41 @@ padding: 50px;
 	height:100px;
 }
 
+@media only screen and (max-width: 500px) {
+
+  #gems img{
+  	width: 75px;
+  	height: 75px;
+  }
+
+  #instructions {
+  	width: 60%;
+  }
+
+#playerNumberBox, #goalNumberBox{
+width: 20%;
+}
+
+
+
+  
+}
+
+@media only screen and (max-width: 350px) {
+
+  #gems img{
+  	width: 60px;
+  	height: 60px;
+  }
+  
+}
+
 #winLossBox
 {
 	border-radius: 10px;
 	background-color: #D7D1CD;
 	padding: 5px;
-	width: 5%;
+	width: 75px;
 
 }
 
