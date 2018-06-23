@@ -74,5 +74,5 @@ width: 20%;
 }
 
 body{
-	background-color: red;
+	hsl(0, 75%, 50%);
 }
