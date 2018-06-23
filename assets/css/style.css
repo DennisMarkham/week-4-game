@@ -74,5 +74,5 @@ width: 20%;
 }
 
 body{
-	hsl(0, 75%, 50%);
+	background: hsl(0, 75%, 50%);
 }
