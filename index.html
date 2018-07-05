@@ -21,7 +21,13 @@
   <div id = "instructions">
   <p>Each crystal has been given a random number value.  Click the crystal to add
   its value to your total.  If you can match the goal, you win.  If you exceed it,
-  you will lose.  Eitherway, the game will restart.</p>
+  you will lose.  Eitherway, the game will restart. <b>New Feature: Wins and losses will be tracked persistently!
+  However, feel free to clear your stats at any time.</b></p>
+  </div>
+
+  <div id = "playerNumberBox">
+  <span id = "playerNumber">
+  </span>
   </div>
 
   <div id = "goalNumberBox">
@@ -29,10 +35,7 @@
   </span>
 </div>
 
-  <div id = "playerNumberBox">
-  <span id = "playerNumber">
-  </span>
-  </div>
+  
   
  
  <div id="gems">
@@ -43,13 +46,15 @@
 </div>
 
 <div id ="winLossBox">
-Wins: <span id = "wins">
+Wins: <span id = "wins">0
   </span>
   <br>
 
-Losses: <span id = "losses">
+Losses: <span id = "losses">0
   </span>
 </div>
+<br>
+<button id = "clear"> Clear Stats?</button>
 
 <script src="assets/javascript/game.js"></script>
  
