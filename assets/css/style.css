@@ -3,6 +3,12 @@ h1 {
 	font-family: cursive;
 }
 
+#clear
+{
+border-radius: 5px;
+text-decoration: italic;
+}
+
 #instructions {
 border-radius: 10px;
 background-color: #D7D1CD;
