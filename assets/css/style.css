@@ -9,6 +9,8 @@ border-radius: 5px;
 text-decoration: italic;
 }
 
+
+
 #instructions {
 border-radius: 10px;
 background-color: #D7D1CD;
@@ -35,10 +37,14 @@ margin: 10px;
 padding: 50px;
 }
 
+button {
+  cursor: pointer;
+}
 
 #gems img{
 	width:100px;
 	height:100px;
+  cursor: url('../images/cursor2.cur'), auto;
 }
 
 @media only screen and (max-width: 500px) {
