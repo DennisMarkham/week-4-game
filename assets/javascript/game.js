@@ -1,3 +1,6 @@
+var winSound = new Audio("win.wav");
+var lossSound = new Audio("loss.wav");
+lossSound.volume = 0.5;
 
 //sets a random goal number, set's player number
 var goalNumber = Math.floor(Math.random() * 100) + 1;
@@ -73,7 +76,7 @@ $("#playerNumber").text(playerNumber);
     //So at the top of the page "if wins in localstorage = true, wins = localStorage.getItem(wins)"
     //else, wins = 0.
     wins++;
-
+    winSound.play();
     localStorage.setItem("wins", wins);
     
     var x = screen.width/2 - 500/2;
@@ -101,6 +104,7 @@ $("#purpleGem").attr("value", purple);
   if (playerNumber > goalNumber)
   {
     losses++;
+    lossSound.play();
 
     localStorage.setItem("losses", losses);
   
