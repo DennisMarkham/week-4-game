@@ -41,6 +41,11 @@ button {
   cursor: pointer;
 }
 
+#gems img:hover{
+width: 120px;
+height: 120px;
+}
+
 #gems img{
 	width:100px;
 	height:100px;
@@ -52,7 +57,13 @@ button {
   #gems img{
   	width: 75px;
   	height: 75px;
+    cursor: url('../images/cursor2.cur'), auto;
   }
+
+  #gems img:hover{
+width: 100px;
+height: 100px;
+}
 
   #instructions {
   	width: 60%;
@@ -72,7 +83,14 @@ width: 20%;
   #gems img{
   	width: 60px;
   	height: 60px;
+    cursor: url('../images/cursor2.cur'), auto;
   }
+
+   #gems img:hover{
+width: 75px;
+height: 75px;
+}
+
   
 }
 
