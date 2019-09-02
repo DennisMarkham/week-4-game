@@ -52,6 +52,14 @@ height: 120px;
   cursor: url('../images/cursor2.cur'), auto;
 }
 
+@media only screen and (min-width: 1700px){
+
+body
+{
+  margin-left: 200px;
+}
+}
+
 @media only screen and (max-width: 500px) {
 
   #gems img{
