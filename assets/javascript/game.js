@@ -81,8 +81,11 @@ $("#playerNumber").text(playerNumber);
     
     var x = screen.width/2 - 500/2;
     var y = screen.height/2 - 350/2;
+    
+    if(window.innerWidth > 800)
+    {
     window.open("win.html", "_blank",'height=385,width=500,left='+x+',top='+y);
-
+    }
 //if you win, goal number is reset, player number is reset, and so are gem values
 goalNumber = Math.floor(Math.random() * 120) + 1;
 playerNumber = 0;
@@ -110,8 +113,11 @@ $("#purpleGem").attr("value", purple);
   
     var x = screen.width/2 - 500/2;
     var y = screen.height/2 - 350/2;
+    
+    if(window.innerWidth > 800)
+    {
     window.open("loss.html", "_blank",'height=385,width=500,left='+x+',top='+y);
-
+    }
 //if you lose, all those numbers are reset as well.     
 goalNumber = Math.floor(Math.random() * 100) + 1;
 playerNumber = 0;
