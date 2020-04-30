@@ -1,0 +1,98 @@
+.grayBox {
+  border-radius: 10px;
+  background-color: #D7D1CD;
+  border-style: inset;
+}
+
+#playerNumberBox, #goalNumberBox {
+  font-size: 400%;
+  width: 10%;
+  margin: 10px;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+}
+
+#clear {
+  border-radius: 5px;
+  text-decoration: italic;
+}
+
+#instructions {
+  margin: 10px;
+  width: 30%;
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#gems img {
+  width: 100px;
+  height: 100px;
+  cursor: url("../images/cursor2.cur"), auto;
+}
+
+#gems img:hover {
+  width: 120px;
+  height: 120px;
+}
+
+@media only screen and (min-width: 1700px) {
+  body {
+    margin-left: 200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #gems img {
+    width: 75px;
+    height: 75px;
+    cursor: url("../images/cursor2.cur"), auto;
+  }
+
+  #gems img:hover {
+    width: 100px;
+    height: 100px;
+  }
+
+  #instructions {
+    width: 60%;
+  }
+
+  #playerNumberBox, #goalNumberBox {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  #gems img {
+    width: 60px;
+    height: 60px;
+    cursor: url("../images/cursor2.cur"), auto;
+  }
+
+  #gems img:hover {
+    width: 75px;
+    height: 75px;
+  }
+}
+#winLossBox {
+  padding: 5px;
+  width: 75px;
+}
+
+body {
+  background-color: #df2020;
+}
+
+/*#whole {
+  background-image: url("../images/scepter.png"), url("../images/scepter.png");
+  background-position: bottom-right, bottom-left;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}*/
+
+/*# sourceMappingURL=sassitize.css.map */

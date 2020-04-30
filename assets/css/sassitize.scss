@@ -1,0 +1,132 @@
+%gray-box {
+ border-radius: 10px;
+background-color: #D7D1CD; 
+border-style: inset;
+}
+
+%number-box
+{
+  font-size: 400%;
+width: 10%;
+margin: 10px;
+padding: 50px;
+}
+
+@mixin gemImg($size)
+{
+  width: $size;
+  height: $size;
+}
+
+h1 {
+	text-align: center;
+	font-family: cursive;
+}
+
+#clear
+{
+border-radius: 5px;
+text-decoration: italic;
+}
+
+.grayBox
+{
+@extend %gray-box;
+}
+
+
+#instructions {
+margin: 10px;
+width:30%;
+padding: 5px;
+}
+
+#goalNumberBox{
+@extend %number-box;
+}
+
+#playerNumberBox{
+@extend %number-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+$gemDef: 100px;
+
+#gems img{
+	@include gemImg($gemDef);
+  cursor: url('../images/cursor2.cur'), auto;
+}
+
+#gems img:hover{
+@include gemImg($gemDef * 1.2);
+}
+
+
+@media only screen and (min-width: 1700px){
+
+body
+{
+  margin-left: 200px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+  #gems img{
+  	@include gemImg(75px);
+    cursor: url('../images/cursor2.cur'), auto;
+  }
+
+  #gems img:hover{
+@include gemImg(100px);
+}
+
+  #instructions {
+  	width: 60%;
+  }
+
+#playerNumberBox, #goalNumberBox{
+width: 20%;
+}
+
+
+
+  
+}
+
+@media only screen and (max-width: 350px) {
+
+  #gems img{
+  	@include gemImg(60px);
+    cursor: url('../images/cursor2.cur'), auto;
+  }
+
+   #gems img:hover{
+@include gemImg(75px);
+}
+
+  
+}
+
+#winLossBox
+{
+	padding: 5px;
+	width: 75px;
+
+}
+
+body {
+  background-color: #df2020;
+  
+}
+
+#whole{
+background-image: url("../images/scepter.png"), url("../images/scepter.png");
+  background-position: bottom-right, bottom-left;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
